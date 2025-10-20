@@ -1,0 +1,129 @@
+.bantin-page {
+  padding: 24px 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Remove underlines from all links */
+.bantin-page a {
+  text-decoration: none;
+}
+
+.bantin-page a:hover {
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+.bantin-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 20px;
+}
+
+.feed {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.news-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 12px;
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.news-card .thumb {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.news-card a:hover .thumb {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.news-title {
+  margin: 0 0 6px;
+}
+
+.news-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.news-title a:hover {
+  text-decoration: none;
+  color: #2d5016;
+}
+
+.excerpt {
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.meta {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.sidebar .panel {
+  background: #f5f6f8;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.panel-title { font-weight: 700; }
+.divider { height: 1px; background: #e5e7eb; margin: 10px 0; }
+.sub-title { font-weight: 600; margin-bottom: 8px; }
+
+.recent-list { display: flex; flex-direction: column; gap: 10px; }
+.recent-item { display: grid; grid-template-columns: 70px 1fr; gap: 10px; }
+.recent-item img { 
+  width: 70px; 
+  height: 50px; 
+  object-fit: cover; 
+  border-radius: 6px; 
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.recent-item a:hover img {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.recent-title { font-size: 14px; }
+
+.recent-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.recent-title a:hover {
+  text-decoration: none;
+  color: #2d5016;
+}
+
+.tags { list-style: none; padding: 0; margin: 8px 0 0; }
+.tags li { margin: 6px 0; font-size: 14px; }
+
+@media (max-width: 992px) {
+  .bantin-layout { grid-template-columns: 1fr; }
+  .feed { grid-template-columns: 1fr; }
+}
+
+

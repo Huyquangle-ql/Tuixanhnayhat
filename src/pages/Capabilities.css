@@ -1,0 +1,162 @@
+/* --- HERO SECTION --- */
+.capabilities-hero {
+  background: url("../../public/images/endless-cornfield.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.capabilities-hero .hero-badge {
+  background-color: rgba(45, 80, 22, 0.9);
+  padding: 20px 60px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.capabilities-hero .hero-badge h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* --- SECTION CHUNG --- */
+.section {
+  padding: 80px 20px;
+}
+.light-bg {
+  background-color: #f9f9f9;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+/* --- JOURNEY SECTION --- */
+.journey-image {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.journey-image img {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.journey-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.journey-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+/* --- PROCESS SECTION --- */
+.process-content {
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+.process-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.process-item {
+  text-align: center;
+}
+
+.process-item img {
+  width: 100%; /* Cho ảnh vừa với cột */
+  height: 250px; /* Tăng chiều cao ảnh */
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.process-note {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 15px;
+  border-left: 5px solid #2d5016;
+  margin-top: 40px;
+}
+
+.process-note p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin: 0;
+  text-align: justify;
+}
+
+/* --- COMMITMENT SECTION --- */
+.commitment-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.commitment-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+/* --- HIỆU ỨNG ẢNH CHUNG --- */
+.journey-image img,
+.process-item img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.journey-image:hover img,
+.process-item:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .capabilities-hero .hero-badge h1 {
+    font-size: 2rem;
+  }
+  .journey-image img {
+    height: 250px;
+  }
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .process-item img {
+    height: 200px;
+  }
+}

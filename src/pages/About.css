@@ -1,0 +1,215 @@
+/* --- HERO SECTION --- */
+.about-hero {
+  background-image: url("../../public/images/corn-field-harvest.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero-badge {
+  background-color: rgba(28, 53, 11, 0.9);
+  padding: 15px 120px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.hero-badge h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* --- CÀI ĐẶT CHUNG CHO CÁC SECTION --- */
+.section {
+  padding: 80px 0;
+}
+
+.light-bg {
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- KIỂU CHUNG CHO CÁC TIÊU ĐỀ SECTION --- */
+.story-section h2,
+.mission-content h2,
+.vision-content h2,
+.values-content h2,
+.difference-text h2 {
+  font-size: 2.5rem;
+  color: #2d5016;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #ff8c00;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+/* --- CÁC SECTION STORY, MISSION, VISION, VALUES --- */
+.story-section,
+.mission-section,
+.vision-section,
+.values-section {
+  margin-bottom: 60px;
+}
+
+.story-content,
+.mission-section,
+.vision-section,
+.values-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.story-text p,
+.mission-content p,
+.vision-content p,
+.values-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.story-image img,
+.mission-image img,
+.vision-image img,
+.values-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* --- WHY CHOOSE SECTION --- */
+.why-choose-section .section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #333;
+  border-bottom: 3px solid #ff8c00;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.why-choose-section .container {
+  text-align: center;
+}
+
+.why-choose-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px; /* Thêm khoảng cách với tiêu đề */
+}
+
+.why-choose-item {
+  text-align: left;
+}
+
+.why-choose-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.why-choose-item p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* --- DIFFERENCE SECTION --- */
+.difference-section .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.difference-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.difference-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.difference-image img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* --- HIỆU ỨNG ẢNH CHUNG --- */
+.story-image img,
+.mission-image img,
+.vision-image img,
+.values-image img,
+.difference-image img,
+.why-choose-image img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.story-image:hover img,
+.mission-image:hover img,
+.vision-image:hover img,
+.values-image:hover img,
+.difference-image:hover img,
+.why-choose-image:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 992px) {
+  .why-choose-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-badge h1 {
+    font-size: 2rem;
+  }
+
+  .story-content,
+  .mission-section,
+  .vision-section,
+  .values-section,
+  .difference-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Đảo vị trí cho các section có ảnh bên trái */
+  .mission-image,
+  .values-image {
+    order: -1;
+  }
+}

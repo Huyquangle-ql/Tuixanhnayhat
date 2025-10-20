@@ -1,0 +1,109 @@
+.page-banner {
+  position: relative;
+  height: 300px;
+  /* full-bleed edge-to-edge even inside padded layouts */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-banner__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.page-banner__overlay {
+  display: none;
+}
+
+.page-banner__inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.page-banner__content {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px 60px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(45, 80, 22, 0.1);
+}
+
+.page-banner__content:empty {
+  display: none;
+}
+
+.page-banner__title {
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 3.5rem;
+  color: #2d5016;
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+  letter-spacing: -0.02em;
+}
+
+.page-banner__subtitle {
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.15rem;
+  color: #555;
+  margin: 0;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3px;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-banner {
+    height: 260px;
+  }
+  
+  .page-banner__content {
+    padding: 30px 40px;
+  }
+  
+  .page-banner__title {
+    font-size: 2.5rem;
+  }
+  
+  .page-banner__subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-banner {
+    height: 180px;
+  }
+  
+  .page-banner__content {
+    padding: 25px 30px;
+  }
+  
+  .page-banner__title {
+    font-size: 2rem;
+  }
+  
+  .page-banner__subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+
