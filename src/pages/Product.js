@@ -8,7 +8,7 @@ const PRODUCTS = [
     id: "flat-small",
     name: "Túi trơn",
     size: "Nhỏ",
-    price: 20000,
+    price: 35000,
     image: "/images/tuitron1.jpg",
     type: "trơn",
     status: "còn hàng",
