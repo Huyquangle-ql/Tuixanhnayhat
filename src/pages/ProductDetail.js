@@ -43,9 +43,9 @@ function ProductDetail() {
             className="main"
           />
           <div className="thumbs">
-            <img src={product.image || "/placeholder.svg"} alt="thumb 1" />
-            <img src={product.image || "/placeholder.svg"} alt="thumb 2" />
-            <img src={product.image || "/placeholder.svg"} alt="thumb 3" />
+            <img src="/images/tuitron2.jpg" alt="thumb 1" />
+            <img src="/images/tuitron3.jpg" alt="thumb 2" />
+            <img src="/images/tuitron4.jpg" alt="thumb 3" />
           </div>
         </aside>
 
