@@ -186,7 +186,7 @@ const About = () => {
             </div>
             <div className="difference-image">
               <img
-                src="/images/eco-friendly-bag.png"
+                src="/images/slide4.jpg"
                 alt="Túi thân thiện môi trường"
               />
             </div>

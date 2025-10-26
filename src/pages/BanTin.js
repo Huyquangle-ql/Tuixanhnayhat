@@ -8,7 +8,7 @@ const posts = [
     title: "Top 10 nước xả rác thải nhựa ra biển nhiều nhất, đáng buồn là có VN",
     date: "21/2/2023",
     excerpt: "Mỗi năm toàn thế giới sản xuất ra khoảng 67,5...",
-    image: "/images/eco-friendly-products.png",
+    image: "/images/bantin1.png",
     url: "https://tinhte.vn/thread/top-10-nuoc-xa-rac-thai-nhua-ra-bien-nhieu-nhat-dang-buon-la-co-vn.3636572/",
   },
   {
@@ -16,7 +16,7 @@ const posts = [
     title: "Hà Nội sắp cấm nhựa dùng một lần ở nhà hàng, cà phê trong Vành đai 1",
     date: "13/7/2025",
     excerpt: "Từ tháng 10, Hà Nội được yêu cầu...",
-    image: "/images/green-environment.png",
+    image: "/images/bantin2.png",
     url: "https://vnexpress.net/ha-noi-sap-cam-nhua-dung-mot-lan-o-nha-hang-ca-phe-trong-vanh-dai-1-4913555.html",
   },
   {
@@ -24,7 +24,7 @@ const posts = [
     title: "Người tiêu dùng có xu hướng gia tăng sử dụng sản phẩm xanh",
     date: "31/10/2024",
     excerpt: "Thông tin từ cuộc khảo sát...",
-    image: "/images/eco-friendly-bag.png",
+    image: "/images/bantin3.png",
     url: "https://tapchicongthuong.vn/xu-huong-tieu-dung-xanh-trong-phat-trien-ben-vung-tai-viet-nam-123316.htm",
   },
   {
@@ -32,7 +32,7 @@ const posts = [
     title: "Xu hướng 'tiêu dùng xanh' tạo làn sóng mới trên thị trường",
     date: "05/05/2025",
     excerpt: "Khi người trẻ tiên phong 'sống xanh'...",
-    image: "/images/handmade-eco-bags.png",
+    image: "/images/bantin4.png",
     url: "https://congthuong.vn/xu-huong-tieu-dung-xanh-tao-lan-song-moi-tren-thi-truong-386171.html",
   },
   {
@@ -40,7 +40,7 @@ const posts = [
     title: "Doanh nghiệp chuyển đổi sang bao bì sinh học để đáp ứng ESG",
     date: "10/06/2025",
     excerpt: "Các nhãn hàng lớn công bố lộ trình thay thế bao bì nhựa...",
-    image: "/images/eco-bag-material.png",
+    image: "/images/bantin5.png",
     url: "https://baobihvl.com/bao-bi-pla-buoc-chuyen-tat-yeu-cua-doanh-nghiep-viet-nam-chuyen-doi-xanh-den-nam-2030",
   },
   {

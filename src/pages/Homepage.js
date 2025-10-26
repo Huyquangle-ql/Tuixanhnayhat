@@ -32,21 +32,21 @@ const Homepage = () => {
               loop={true}
             >
               <SwiperSlide>
-                <img src="/images/finished-eco-bag.png" alt="Corn field" />
+                <img src="/images/slide1.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/images/handmade-eco-bags.png" alt="Green field" />
+                <img src="/images/slide2.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/images/eco-friendly-bag.png" alt="Rice field" />
+                <img src="/images/slide3.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/images/eco-friendly-bag.png" alt="Wheat field" />
+                <img src="/images/slide4.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/images/eco-friendly-bag.png"
-                  alt="Agricultural field"
+                  src="/images/slide5.jpg"
+                  alt=""
                 />
               </SwiperSlide>
             </Swiper>
@@ -78,7 +78,7 @@ const Homepage = () => {
             </Link>
           </div>
           <div className="about-image">
-            <img src="/images/handmade-eco-bags.png" alt="Túi Xanh - Nảy Hạt" />
+            <img src="/images/slide4.jpg" alt="Túi Xanh - Nảy Hạt" />
           </div>
         </div>
       </section>
